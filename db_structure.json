@@ -1,0 +1,3178 @@
+{
+  "FORMULA_INDICATIONS": {
+    "columns": [
+      "ID_FORMULA",
+      "ID_POS_OWNER_FORMULA",
+      "ID_INDICATIONS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "BRANDS": {
+    "columns": [
+      "ID_BRAND",
+      "CODE_BRAND",
+      "DESCRIPTION",
+      "STATUS",
+      "LOGO",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_BRAND": "1",
+        "CODE_BRAND": "MILESI",
+        "DESCRIPTION": "MILESI",
+        "STATUS": "V",
+        "LOGO": "logomilesi.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-11-24 17:00:51.510000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_BRAND": "2",
+        "CODE_BRAND": "ILVA",
+        "DESCRIPTION": "ILVA",
+        "STATUS": "V",
+        "LOGO": "logoilva.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-11-24 17:00:45.057000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_BRAND": "3",
+        "CODE_BRAND": "CROMA",
+        "DESCRIPTION": "CROMA",
+        "STATUS": "V",
+        "LOGO": "logocroma.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2017-05-24 11:10:56.097000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "MIXTURES": {
+    "columns": [
+      "ID_MIXTURE",
+      "ID_POS_OWNER",
+      "CODE_MIXTURE",
+      "DESCRIPTION",
+      "DATE_CREATION",
+      "ID_POS_SPECIFIC",
+      "ID_GROUP_SPECIFIC",
+      "VERIFIED",
+      "STATUS",
+      "NOTE",
+      "USE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COLORMATCH_ENGINES": {
+    "columns": [
+      "ID_ENGINE",
+      "CODE_ENGINE",
+      "DESCRIPTION",
+      "ENGINE_PARAM",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_ENGINE": "1",
+        "CODE_ENGINE": "MATCHCOM",
+        "DESCRIPTION": "Datacolor MatchCom",
+        "ENGINE_PARAM": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      }
+    ]
+  },
+  "MIXTURE_COMPONENTS": {
+    "columns": [
+      "ID_MIXTURE",
+      "ID_POS_OWNER",
+      "ID_COMPONENT",
+      "QUANTITY",
+      "ID_UNIT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "CANS": {
+    "columns": [
+      "ID_CAN",
+      "CODE_CAN",
+      "QT_NOMINAL",
+      "ID_UNIT",
+      "STATUS",
+      "CODE_MATCHING",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_CAN": "1",
+        "CODE_CAN": "1 L",
+        "QT_NOMINAL": "1.00000000000000000000",
+        "ID_UNIT": "1",
+        "STATUS": "V",
+        "CODE_MATCHING": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_CAN": "2",
+        "CODE_CAN": "1 Qt",
+        "QT_NOMINAL": "1.00000000000000000000",
+        "ID_UNIT": "4",
+        "STATUS": "V",
+        "CODE_MATCHING": "1L",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_CAN": "3",
+        "CODE_CAN": "2 Qt",
+        "QT_NOMINAL": "2.00000000000000000000",
+        "ID_UNIT": "4",
+        "STATUS": "V",
+        "CODE_MATCHING": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_CAN": "4",
+        "CODE_CAN": "1 Ga",
+        "QT_NOMINAL": "1.00000000000000000000",
+        "ID_UNIT": "3",
+        "STATUS": "V",
+        "CODE_MATCHING": "1L",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_CAN": "5",
+        "CODE_CAN": "2 Ga",
+        "QT_NOMINAL": "2.00000000000000000000",
+        "ID_UNIT": "3",
+        "STATUS": "V",
+        "CODE_MATCHING": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      }
+    ]
+  },
+  "COLORFILE": {
+    "columns": [
+      "ID_COLORFILE",
+      "CODE_COLORFILE",
+      "DESCRIPTION",
+      "ID_PRODUCT",
+      "ID_ENGINE",
+      "STATUS",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_COLORFILE": "1",
+        "CODE_COLORFILE": "ACQUA X INTERNO ILVA",
+        "DESCRIPTION": "ACQUA X INTERNO ILVA",
+        "ID_PRODUCT": "12",
+        "ID_ENGINE": "1",
+        "STATUS": "V",
+        "PRIORITY": null,
+        "DATE_MODIFY": "2016-09-21 15:24:46.590000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLORFILE": "2",
+        "CODE_COLORFILE": "ACQUA X INTERNO MILESI",
+        "DESCRIPTION": "ACQUA X INTERNO MILESI",
+        "ID_PRODUCT": "6",
+        "ID_ENGINE": "1",
+        "STATUS": "V",
+        "PRIORITY": null,
+        "DATE_MODIFY": "2016-09-21 15:24:57.860000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLORFILE": "3",
+        "CODE_COLORFILE": "ACQUA X ESTERNO ILVA",
+        "DESCRIPTION": "ACQUA X ESTERNO ILVA",
+        "ID_PRODUCT": "13",
+        "ID_ENGINE": "1",
+        "STATUS": "V",
+        "PRIORITY": null,
+        "DATE_MODIFY": "2016-09-21 15:24:27.323000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLORFILE": "4",
+        "CODE_COLORFILE": "ACQUA X ESTERNO MILESI",
+        "DESCRIPTION": "ACQUA X ESTERNO MILESI",
+        "ID_PRODUCT": "7",
+        "ID_ENGINE": "1",
+        "STATUS": "V",
+        "PRIORITY": null,
+        "DATE_MODIFY": "2016-09-21 15:24:16.533000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLORFILE": "5",
+        "CODE_COLORFILE": "ACQUA INDUSTRIALE MILESI",
+        "DESCRIPTION": "ACQUA INDUSTRIALE MILESI",
+        "ID_PRODUCT": "3",
+        "ID_ENGINE": "1",
+        "STATUS": "V",
+        "PRIORITY": null,
+        "DATE_MODIFY": "2016-09-19 15:42:41.580000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COLORS": {
+    "columns": [
+      "ID_COLOR",
+      "ID_POS_OWNER",
+      "CODE_COLOR",
+      "DESCRIPTION",
+      "ID_CARD",
+      "ID_POS_OWNER_COLOR_CARD",
+      "CODE_REF_COLOR",
+      "ID_POS_OWNER_REF_COLOR",
+      "STATUS",
+      "DEFAULT",
+      "PRIORITY",
+      "ID_MEASURE",
+      "ID_POS_OWNER_MEASURE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_COLOR": "1",
+        "ID_POS_OWNER": "1",
+        "CODE_COLOR": "{D6EC5046-9174-45EE-AE51-B5C0E1F62213}",
+        "DESCRIPTION": "K5.05.86",
+        "ID_CARD": "1",
+        "ID_POS_OWNER_COLOR_CARD": "1",
+        "CODE_REF_COLOR": "L745-W312-GY664",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "STATUS": "V",
+        "DEFAULT": "0",
+        "PRIORITY": "0",
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "DATE_MODIFY": "2016-02-06 11:01:03.450000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLOR": "2",
+        "ID_POS_OWNER": "1",
+        "CODE_COLOR": "{E465FCFB-8865-43C2-85A8-605AB1C785C6}",
+        "DESCRIPTION": "T4.05.83",
+        "ID_CARD": "1",
+        "ID_POS_OWNER_COLOR_CARD": "1",
+        "CODE_REF_COLOR": "L650-W246-B340",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "STATUS": "V",
+        "DEFAULT": "0",
+        "PRIORITY": "0",
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "DATE_MODIFY": "2016-02-06 11:01:04.750000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLOR": "3",
+        "ID_POS_OWNER": "1",
+        "CODE_COLOR": "{D25F3B3D-C7EB-499E-AEFE-1148B78F9B79}",
+        "DESCRIPTION": "UN.03.83",
+        "ID_CARD": "1",
+        "ID_POS_OWNER_COLOR_CARD": "1",
+        "CODE_REF_COLOR": "L651-W142-NB578",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "STATUS": "V",
+        "DEFAULT": "0",
+        "PRIORITY": "0",
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "DATE_MODIFY": "2016-02-06 11:01:03.730000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLOR": "4",
+        "ID_POS_OWNER": "1",
+        "CODE_COLOR": "{0C3B030C-3F61-4E68-9683-AF19CDF7BE06}",
+        "DESCRIPTION": "BN.02.77",
+        "ID_CARD": "1",
+        "ID_POS_OWNER_COLOR_CARD": "1",
+        "CODE_REF_COLOR": "L472-W162-NR709",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "STATUS": "V",
+        "DEFAULT": "0",
+        "PRIORITY": "0",
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "DATE_MODIFY": "2016-02-06 11:01:05.847000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COLOR": "5",
+        "ID_POS_OWNER": "1",
+        "CODE_COLOR": "{B094C7CC-747F-4E3F-8FFD-7C0ACB000D1C}",
+        "DESCRIPTION": "F6.07.82",
+        "ID_CARD": "1",
+        "ID_POS_OWNER_COLOR_CARD": "1",
+        "CODE_REF_COLOR": "L646-W442-Y341",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "STATUS": "V",
+        "DEFAULT": "0",
+        "PRIORITY": "0",
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "DATE_MODIFY": "2016-02-06 11:01:06.950000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COLORS_LOG": {
+    "columns": [
+      "ID_COLOR",
+      "ID_POS_OWNER",
+      "CODE_COLOR",
+      "DESCRIPTION",
+      "ID_CARD",
+      "ID_POS_OWNER_COLOR_CARD",
+      "CODE_REF_COLOR",
+      "ID_POS_OWNER_REF_COLOR",
+      "STATUS",
+      "DEFAULT",
+      "PRIORITY",
+      "ID_MEASURE",
+      "ID_POS_OWNER_MEASURE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COLOR_CARDS": {
+    "columns": [
+      "ID_CARD",
+      "ID_POS_OWNER",
+      "CODE_CARD",
+      "DESCRIPTION",
+      "ID_PRODUCER",
+      "ID_POS_OWNER_PRODUCER",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_CARD": "1",
+        "ID_POS_OWNER": "1",
+        "CODE_CARD": "SIKKENS",
+        "DESCRIPTION": "SIKKENS",
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "STATUS": "A",
+        "DATE_MODIFY": "2019-12-04 15:04:58.740000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "2",
+        "ID_POS_OWNER": "1",
+        "CODE_CARD": "BENJAMIN MOORE Classic",
+        "DESCRIPTION": "BENJAMIN MOORE Classic",
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "STATUS": "A",
+        "DATE_MODIFY": "2019-11-29 09:15:58.910000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "7",
+        "ID_POS_OWNER": "1",
+        "CODE_CARD": "NCS 1950",
+        "DESCRIPTION": "NCS ",
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "STATUS": "V",
+        "DATE_MODIFY": "2023-01-09 14:34:19.523000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "4",
+        "ID_POS_OWNER": "1",
+        "CODE_CARD": "PANTONE C",
+        "DESCRIPTION": "PANTONE C",
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "STATUS": "V",
+        "DATE_MODIFY": "2018-04-05 16:07:41.543000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "5",
+        "ID_POS_OWNER": "1",
+        "CODE_CARD": "NCS Cascade",
+        "DESCRIPTION": "NCS Cascade",
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "STATUS": "A",
+        "DATE_MODIFY": "2016-10-24 11:12:14.777000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COLOR_CARDS_LOG": {
+    "columns": [
+      "ID_CARD",
+      "ID_POS_OWNER",
+      "CODE_CARD",
+      "DESCRIPTION",
+      "ID_PRODUCER",
+      "ID_POS_OWNER_PRODUCER",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COLOR_CARDS_GROUPS": {
+    "columns": [
+      "ID_CARD",
+      "ID_POS_OWNER_CARD",
+      "ID_GROUP",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_CARD": "6",
+        "ID_POS_OWNER_CARD": "1",
+        "ID_GROUP": "1",
+        "PRIORITY": "1",
+        "DATE_MODIFY": "2022-04-20 11:12:14.250000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "9",
+        "ID_POS_OWNER_CARD": "1",
+        "ID_GROUP": "1",
+        "PRIORITY": "2",
+        "DATE_MODIFY": "2022-04-20 11:12:14.253000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "14",
+        "ID_POS_OWNER_CARD": "1",
+        "ID_GROUP": "1",
+        "PRIORITY": "3",
+        "DATE_MODIFY": "2022-04-20 11:12:14.253000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "7",
+        "ID_POS_OWNER_CARD": "1",
+        "ID_GROUP": "1",
+        "PRIORITY": "4",
+        "DATE_MODIFY": "2022-04-20 11:12:14.257000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CARD": "16",
+        "ID_POS_OWNER_CARD": "1",
+        "ID_GROUP": "1",
+        "PRIORITY": "5",
+        "DATE_MODIFY": "2022-04-20 11:12:14.257000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COLOR_CARDS_GROUPS_LOG": {
+    "columns": [
+      "ID_CARD",
+      "ID_POS_OWNER_CARD",
+      "ID_GROUP",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COLOR_CARD_PRODUCERS": {
+    "columns": [
+      "ID_PRODUCER",
+      "ID_POS_OWNER",
+      "CODE_PRODUCER",
+      "DESCRIPTION",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER": "1",
+        "CODE_PRODUCER": "CARTELLE IVM POS",
+        "DESCRIPTION": "IVM Collections-RAL-NCS-PANTONE",
+        "STATUS": "V",
+        "DATE_MODIFY": "2022-06-16 09:45:54.317000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCER": "2",
+        "ID_POS_OWNER": "1",
+        "CODE_PRODUCER": "CARTELLE IVM POS2",
+        "DESCRIPTION": "VARIOUS",
+        "STATUS": "V",
+        "DATE_MODIFY": "2022-04-20 11:05:44.573000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COLOR_CARD_PRODUCERS_LOG": {
+    "columns": [
+      "ID_PRODUCER",
+      "ID_POS_OWNER",
+      "CODE_PRODUCER",
+      "DESCRIPTION",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COLOR_CARD_PRODUCERS_GROUPS": {
+    "columns": [
+      "ID_PRODUCER",
+      "ID_POS_OWNER_PRODUCER",
+      "ID_GROUP",
+      "TYPE_COLOR",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "ID_GROUP": "1",
+        "TYPE_COLOR": "1",
+        "PRIORITY": "1",
+        "DATE_MODIFY": "2022-04-20 11:12:14.247000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCER": "2",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "ID_GROUP": "1",
+        "TYPE_COLOR": "3",
+        "PRIORITY": "2",
+        "DATE_MODIFY": "2022-04-20 11:12:14.267000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCER": "1",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "ID_GROUP": "2",
+        "TYPE_COLOR": "1",
+        "PRIORITY": "1",
+        "DATE_MODIFY": "2023-05-16 14:59:55.317000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCER": "2",
+        "ID_POS_OWNER_PRODUCER": "1",
+        "ID_GROUP": "2",
+        "TYPE_COLOR": "1",
+        "PRIORITY": "2",
+        "DATE_MODIFY": "2023-05-16 14:59:55.340000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COLOR_CARD_PRODUCERS_GRPS_LOG": {
+    "columns": [
+      "ID_PRODUCER",
+      "ID_POS_OWNER_PRODUCER",
+      "ID_GROUP",
+      "TYPE_COLOR",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COMPONENTS": {
+    "columns": [
+      "ID_COMPONENT",
+      "CODE_COMPONENT",
+      "DESCRIPTION",
+      "STATUS",
+      "DENSITY",
+      "TYPE",
+      "DISPENSABLE",
+      "SUB_TYPE",
+      "VOC",
+      "FASTNESS",
+      "RGB",
+      "CODE_MATCHING",
+      "CODE_SAFETY",
+      "CODE_MIGRATION",
+      "PERCENTAGE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY",
+      "YIELD"
+    ],
+    "sample_data": [
+      {
+        "ID_COMPONENT": "1",
+        "CODE_COMPONENT": "HMT100",
+        "DESCRIPTION": " ",
+        "STATUS": "V",
+        "DENSITY": "2.10000000000000000000",
+        "TYPE": "1",
+        "DISPENSABLE": "1",
+        "SUB_TYPE": "-1",
+        "VOC": null,
+        "FASTNESS": null,
+        "RGB": "FFFFFF",
+        "CODE_MATCHING": "HMT100",
+        "CODE_SAFETY": "HMT100",
+        "CODE_MIGRATION": null,
+        "PERCENTAGE": null,
+        "DATE_MODIFY": "2017-07-17 14:08:21.747000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1",
+        "YIELD": ""
+      },
+      {
+        "ID_COMPONENT": "2",
+        "CODE_COMPONENT": "HMT900",
+        "DESCRIPTION": " ",
+        "STATUS": "V",
+        "DENSITY": "1.13300000000000000000",
+        "TYPE": "1",
+        "DISPENSABLE": "1",
+        "SUB_TYPE": "-1",
+        "VOC": null,
+        "FASTNESS": null,
+        "RGB": "000000",
+        "CODE_MATCHING": "HMT900",
+        "CODE_SAFETY": "HMT900",
+        "CODE_MIGRATION": null,
+        "PERCENTAGE": null,
+        "DATE_MODIFY": "2017-07-17 14:12:34.337000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1",
+        "YIELD": ""
+      },
+      {
+        "ID_COMPONENT": "3",
+        "CODE_COMPONENT": "HMT210",
+        "DESCRIPTION": " ",
+        "STATUS": "V",
+        "DENSITY": "1.85700000000000000000",
+        "TYPE": "1",
+        "DISPENSABLE": "1",
+        "SUB_TYPE": "-1",
+        "VOC": null,
+        "FASTNESS": null,
+        "RGB": "D9D900",
+        "CODE_MATCHING": "HMT210",
+        "CODE_SAFETY": "HMT210",
+        "CODE_MIGRATION": null,
+        "PERCENTAGE": null,
+        "DATE_MODIFY": "2017-07-17 14:10:17.913000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1",
+        "YIELD": ""
+      },
+      {
+        "ID_COMPONENT": "4",
+        "CODE_COMPONENT": "HMT220",
+        "DESCRIPTION": " ",
+        "STATUS": "V",
+        "DENSITY": "1.18100000000000000000",
+        "TYPE": "1",
+        "DISPENSABLE": "1",
+        "SUB_TYPE": "-1",
+        "VOC": null,
+        "FASTNESS": null,
+        "RGB": "E2C703",
+        "CODE_MATCHING": "HMT220",
+        "CODE_SAFETY": "HMT220",
+        "CODE_MIGRATION": null,
+        "PERCENTAGE": null,
+        "DATE_MODIFY": "2017-07-17 14:10:47.973000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1",
+        "YIELD": ""
+      },
+      {
+        "ID_COMPONENT": "5",
+        "CODE_COMPONENT": "HMT230",
+        "DESCRIPTION": " ",
+        "STATUS": "V",
+        "DENSITY": "1.61100000000000000000",
+        "TYPE": "1",
+        "DISPENSABLE": "1",
+        "SUB_TYPE": "-1",
+        "VOC": null,
+        "FASTNESS": null,
+        "RGB": "95882B",
+        "CODE_MATCHING": "HMT230",
+        "CODE_SAFETY": "HMT230",
+        "CODE_MIGRATION": null,
+        "PERCENTAGE": null,
+        "DATE_MODIFY": "2017-07-17 14:11:41.957000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1",
+        "YIELD": ""
+      }
+    ]
+  },
+  "COMPONENTS_RELATIONS": {
+    "columns": [
+      "ID_COMPONENT",
+      "ID_COMPONENT_REL",
+      "REL_TYPE",
+      "REL_MODE",
+      "COEFF_1",
+      "COEFF_2",
+      "COEFF_MIN",
+      "COEFF_MAX",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_COMPONENT": "1",
+        "ID_COMPONENT_REL": "1",
+        "REL_TYPE": "1",
+        "REL_MODE": "0",
+        "COEFF_1": "1.00000000000000000000",
+        "COEFF_2": "1.00000000000000000000",
+        "COEFF_MIN": "0E-20",
+        "COEFF_MAX": "99.99000000000000000000",
+        "DATE_MODIFY": "2017-07-17 14:08:21.757000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "2",
+        "ID_COMPONENT_REL": "2",
+        "REL_TYPE": "1",
+        "REL_MODE": "0",
+        "COEFF_1": "1.00000000000000000000",
+        "COEFF_2": "1.00000000000000000000",
+        "COEFF_MIN": "0E-20",
+        "COEFF_MAX": "99.99000000000000000000",
+        "DATE_MODIFY": "2017-07-17 14:12:34.343000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "3",
+        "ID_COMPONENT_REL": "3",
+        "REL_TYPE": "1",
+        "REL_MODE": "0",
+        "COEFF_1": "1.00000000000000000000",
+        "COEFF_2": "1.00000000000000000000",
+        "COEFF_MIN": "0E-20",
+        "COEFF_MAX": "99.99000000000000000000",
+        "DATE_MODIFY": "2017-07-17 14:10:17.917000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "4",
+        "ID_COMPONENT_REL": "4",
+        "REL_TYPE": "1",
+        "REL_MODE": "0",
+        "COEFF_1": "1.00000000000000000000",
+        "COEFF_2": "1.00000000000000000000",
+        "COEFF_MIN": "0E-20",
+        "COEFF_MAX": "99.99000000000000000000",
+        "DATE_MODIFY": "2017-07-17 14:10:47.980000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "5",
+        "ID_COMPONENT_REL": "5",
+        "REL_TYPE": "1",
+        "REL_MODE": "0",
+        "COEFF_1": "1.00000000000000000000",
+        "COEFF_2": "1.00000000000000000000",
+        "COEFF_MIN": "0E-20",
+        "COEFF_MAX": "99.99000000000000000000",
+        "DATE_MODIFY": "2017-07-17 14:11:41.960000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COMPONENTS_CANS": {
+    "columns": [
+      "ID_COMPONENT",
+      "ID_CAN",
+      "QT_BASE_COMPONENT",
+      "QT_MIN",
+      "QT_MAX",
+      "PUNCH",
+      "PLUG",
+      "POSITION_START",
+      "POSITION_DISPENSE",
+      "POSITION_FINAL",
+      "CODE_EXTERNAL",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_COMPONENT": "21",
+        "ID_CAN": "103",
+        "QT_BASE_COMPONENT": "4.00000000000000000000",
+        "QT_MIN": null,
+        "QT_MAX": null,
+        "PUNCH": null,
+        "PLUG": null,
+        "POSITION_START": null,
+        "POSITION_DISPENSE": null,
+        "POSITION_FINAL": null,
+        "CODE_EXTERNAL": null,
+        "DATE_MODIFY": "2016-08-03 10:21:17.800000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "22",
+        "ID_CAN": "101",
+        "QT_BASE_COMPONENT": "1.00000000000000000000",
+        "QT_MIN": null,
+        "QT_MAX": null,
+        "PUNCH": null,
+        "PLUG": null,
+        "POSITION_START": null,
+        "POSITION_DISPENSE": null,
+        "POSITION_FINAL": null,
+        "CODE_EXTERNAL": null,
+        "DATE_MODIFY": "2016-08-03 10:23:28.967000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "7",
+        "ID_CAN": "102",
+        "QT_BASE_COMPONENT": "3.50000000000000000000",
+        "QT_MIN": null,
+        "QT_MAX": null,
+        "PUNCH": null,
+        "PLUG": null,
+        "POSITION_START": null,
+        "POSITION_DISPENSE": null,
+        "POSITION_FINAL": null,
+        "CODE_EXTERNAL": null,
+        "DATE_MODIFY": "2016-08-02 17:40:13.047000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "17",
+        "ID_CAN": "102",
+        "QT_BASE_COMPONENT": "3.50000000000000000000",
+        "QT_MIN": null,
+        "QT_MAX": null,
+        "PUNCH": null,
+        "PLUG": null,
+        "POSITION_START": null,
+        "POSITION_DISPENSE": null,
+        "POSITION_FINAL": null,
+        "CODE_EXTERNAL": null,
+        "DATE_MODIFY": "2016-08-02 17:41:40.613000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "1",
+        "ID_CAN": "102",
+        "QT_BASE_COMPONENT": "3.50000000000000000000",
+        "QT_MIN": null,
+        "QT_MAX": null,
+        "PUNCH": null,
+        "PLUG": null,
+        "POSITION_START": null,
+        "POSITION_DISPENSE": null,
+        "POSITION_FINAL": null,
+        "CODE_EXTERNAL": null,
+        "DATE_MODIFY": "2016-08-02 17:41:46.707000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COMPONENTS_CANS_PRICES": {
+    "columns": [
+      "ID_LIST_PRICE",
+      "ID_POS_OWNER",
+      "ID_COMPONENT",
+      "ID_CAN",
+      "PRICE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "COMPONENTS_GROUPS": {
+    "columns": [
+      "ID_COMPONENT",
+      "ID_GROUP",
+      "CODE_COMPONENT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_COMPONENT": "1",
+        "ID_GROUP": "1",
+        "CODE_COMPONENT": null,
+        "DATE_MODIFY": "2016-02-04 11:14:33.507000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "2",
+        "ID_GROUP": "1",
+        "CODE_COMPONENT": null,
+        "DATE_MODIFY": "2016-02-04 11:14:33.523000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "3",
+        "ID_GROUP": "1",
+        "CODE_COMPONENT": null,
+        "DATE_MODIFY": "2016-02-04 11:14:33.523000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "4",
+        "ID_GROUP": "1",
+        "CODE_COMPONENT": null,
+        "DATE_MODIFY": "2016-02-04 11:14:33.523000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "5",
+        "ID_GROUP": "1",
+        "CODE_COMPONENT": null,
+        "DATE_MODIFY": "2016-02-04 11:14:33.523000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "COMPONENTS_PRODUCTS": {
+    "columns": [
+      "ID_COMPONENT",
+      "ID_PRODUCT",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_COMPONENT": "1",
+        "ID_PRODUCT": "7",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-08-03 10:18:22.757000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "2",
+        "ID_PRODUCT": "7",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-08-03 10:18:22.757000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "3",
+        "ID_PRODUCT": "7",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-08-03 10:18:22.767000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "4",
+        "ID_PRODUCT": "7",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-08-03 10:18:22.767000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_COMPONENT": "5",
+        "ID_PRODUCT": "7",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2016-08-03 10:18:22.777000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "CUSTOMERS": {
+    "columns": [
+      "ID_CUSTOMER",
+      "ID_POS_OWNER",
+      "NAME",
+      "CONTACT",
+      "ADDRESS",
+      "ZIP_CODE",
+      "CITY",
+      "COUNTRY",
+      "PHONE1",
+      "PHONE2",
+      "EMAIL",
+      "ACCOUNT",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "CUSTOMERS_LOG": {
+    "columns": [
+      "ID_CUSTOMER",
+      "ID_POS_OWNER",
+      "NAME",
+      "CONTACT",
+      "ADDRESS",
+      "ZIP_CODE",
+      "CITY",
+      "COUNTRY",
+      "PHONE1",
+      "PHONE2",
+      "EMAIL",
+      "ACCOUNT",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "DISPENSERS": {
+    "columns": [
+      "ID_DISPENSER",
+      "BRAND",
+      "MODEL",
+      "MANUAL",
+      "DRIVER",
+      "DRIVER_PARAM",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_DISPENSER": "1",
+        "BRAND": "MANUAL",
+        "MODEL": "MANUAL",
+        "MANUAL": "1",
+        "DRIVER": "MANUAL",
+        "DRIVER_PARAM": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_DISPENSER": "33",
+        "BRAND": "HERO",
+        "MODEL": "NEWTON",
+        "MANUAL": "0",
+        "DRIVER": "TINTWISE",
+        "DRIVER_PARAM": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_DISPENSER": "32",
+        "BRAND": "TINTWISE",
+        "MODEL": "EUREKA",
+        "MANUAL": "0",
+        "DRIVER": "TINTWISE",
+        "DRIVER_PARAM": "",
+        "DATE_MODIFY": "2017-03-22 16:08:31.337000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_DISPENSER": "31",
+        "BRAND": "HERO",
+        "MODEL": "ARCHIMEDE",
+        "MANUAL": "0",
+        "DRIVER": "TINTWISE",
+        "DRIVER_PARAM": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_DISPENSER": "25",
+        "BRAND": "COROBD50",
+        "MODEL": "COROB D50",
+        "MANUAL": "1",
+        "DRIVER": "COROBD50",
+        "DRIVER_PARAM": "",
+        "DATE_MODIFY": "2018-12-11 14:19:24.367000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "FORMULAS": {
+    "columns": [
+      "ID_FORMULA",
+      "ID_POS_OWNER",
+      "CODE_FORMULA",
+      "DESCRIPTION",
+      "DATE_CREATION",
+      "ID_POS_SPECIFIC",
+      "ID_GROUP_SPECIFIC",
+      "SPECIFIC",
+      "REALIZABLE",
+      "VERIFIED",
+      "STATUS",
+      "CODE_REF_COLOR",
+      "ID_POS_OWNER_REF_COLOR",
+      "NOTE",
+      "CORRECTIONS",
+      "USE",
+      "COLORFILE_ID",
+      "ID_MEASURE",
+      "ID_POS_OWNER_MEASURE",
+      "ID_MEASURE_SUB",
+      "ID_POS_OWNER_MEASURE_SUB",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_FORMULA": "41",
+        "ID_POS_OWNER": "1",
+        "CODE_FORMULA": "S 0510 B30G",
+        "DESCRIPTION": "S 0510 B30G",
+        "DATE_CREATION": "2016-10-22 15:19:27.710000",
+        "ID_POS_SPECIFIC": null,
+        "ID_GROUP_SPECIFIC": null,
+        "SPECIFIC": "0",
+        "REALIZABLE": "1",
+        "VERIFIED": "0",
+        "STATUS": "V",
+        "CODE_REF_COLOR": "L684-W310-G855",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "NOTE": "",
+        "CORRECTIONS": "0",
+        "USE": null,
+        "COLORFILE_ID": null,
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "ID_MEASURE_SUB": null,
+        "ID_POS_OWNER_MEASURE_SUB": null,
+        "DATE_MODIFY": "2016-10-22 17:47:54.137000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "82",
+        "ID_POS_OWNER": "1",
+        "CODE_FORMULA": "S 0515 Y70R",
+        "DESCRIPTION": "S 0515 Y70R",
+        "DATE_CREATION": "2016-10-22 15:19:29.007000",
+        "ID_POS_SPECIFIC": null,
+        "ID_GROUP_SPECIFIC": null,
+        "SPECIFIC": "0",
+        "REALIZABLE": "1",
+        "VERIFIED": "0",
+        "STATUS": "V",
+        "CODE_REF_COLOR": "L594-W661-YR621",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "NOTE": "",
+        "CORRECTIONS": "0",
+        "USE": null,
+        "COLORFILE_ID": null,
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "ID_MEASURE_SUB": null,
+        "ID_POS_OWNER_MEASURE_SUB": null,
+        "DATE_MODIFY": "2016-10-22 17:47:54.060000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "123",
+        "ID_POS_OWNER": "1",
+        "CODE_FORMULA": "S 0530 B40G",
+        "DESCRIPTION": "S 0530 B40G",
+        "DATE_CREATION": "2016-10-22 15:19:29.997000",
+        "ID_POS_SPECIFIC": null,
+        "ID_GROUP_SPECIFIC": null,
+        "SPECIFIC": "0",
+        "REALIZABLE": "1",
+        "VERIFIED": "0",
+        "STATUS": "V",
+        "CODE_REF_COLOR": "L482-W864-G840",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "NOTE": "",
+        "CORRECTIONS": "0",
+        "USE": null,
+        "COLORFILE_ID": null,
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "ID_MEASURE_SUB": null,
+        "ID_POS_OWNER_MEASURE_SUB": null,
+        "DATE_MODIFY": "2016-10-22 17:47:53.987000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "163",
+        "ID_POS_OWNER": "1",
+        "CODE_FORMULA": "S 0540 R20B",
+        "DESCRIPTION": "S 0540 R20B",
+        "DATE_CREATION": "2016-10-22 15:19:30.913000",
+        "ID_POS_SPECIFIC": null,
+        "ID_GROUP_SPECIFIC": null,
+        "SPECIFIC": "0",
+        "REALIZABLE": "1",
+        "VERIFIED": "0",
+        "STATUS": "V",
+        "CODE_REF_COLOR": "L203-M052-R480",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "NOTE": "M",
+        "CORRECTIONS": "0",
+        "USE": null,
+        "COLORFILE_ID": null,
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "ID_MEASURE_SUB": null,
+        "ID_POS_OWNER_MEASURE_SUB": null,
+        "DATE_MODIFY": "2016-10-22 17:47:53.897000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "203",
+        "ID_POS_OWNER": "1",
+        "CODE_FORMULA": "S 0560 R",
+        "DESCRIPTION": "S 0560 R",
+        "DATE_CREATION": "2016-10-22 15:19:31.897000",
+        "ID_POS_SPECIFIC": null,
+        "ID_GROUP_SPECIFIC": null,
+        "SPECIFIC": "0",
+        "REALIZABLE": "1",
+        "VERIFIED": "0",
+        "STATUS": "V",
+        "CODE_REF_COLOR": "I823-M771-R952",
+        "ID_POS_OWNER_REF_COLOR": "1",
+        "NOTE": "M",
+        "CORRECTIONS": "0",
+        "USE": null,
+        "COLORFILE_ID": null,
+        "ID_MEASURE": null,
+        "ID_POS_OWNER_MEASURE": null,
+        "ID_MEASURE_SUB": null,
+        "ID_POS_OWNER_MEASURE_SUB": null,
+        "DATE_MODIFY": "2016-10-22 17:47:53.807000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "FORMULA_COMPONENTS": {
+    "columns": [
+      "ID_FORMULA",
+      "ID_POS_OWNER",
+      "ID_COMPONENT",
+      "QUANTITY",
+      "ID_UNIT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_FORMULA": "32",
+        "ID_POS_OWNER": "1",
+        "ID_COMPONENT": "28",
+        "QUANTITY": "0.70000000000000000000",
+        "ID_UNIT": "101",
+        "DATE_MODIFY": "2016-10-22 15:19:27.450000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "63",
+        "ID_POS_OWNER": "1",
+        "ID_COMPONENT": "35",
+        "QUANTITY": "0.40000000000000000000",
+        "ID_UNIT": "101",
+        "DATE_MODIFY": "2016-10-22 15:19:28.460000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "95",
+        "ID_POS_OWNER": "1",
+        "ID_COMPONENT": "29",
+        "QUANTITY": "3.39000000000000000000",
+        "ID_UNIT": "101",
+        "DATE_MODIFY": "2016-10-22 15:19:29.340000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "127",
+        "ID_POS_OWNER": "1",
+        "ID_COMPONENT": "28",
+        "QUANTITY": "1.01000000000000000000",
+        "ID_UNIT": "101",
+        "DATE_MODIFY": "2016-10-22 15:19:30.090000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_FORMULA": "159",
+        "ID_POS_OWNER": "1",
+        "ID_COMPONENT": "32",
+        "QUANTITY": "0.74000000000000000000",
+        "ID_UNIT": "101",
+        "DATE_MODIFY": "2016-10-22 15:19:30.840000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "FORMULAS_LOG": {
+    "columns": [
+      "ID_FORMULA",
+      "ID_POS_OWNER",
+      "CODE_FORMULA",
+      "DESCRIPTION",
+      "DATE_CREATION",
+      "ID_POS_SPECIFIC",
+      "ID_GROUP_SPECIFIC",
+      "SPECIFIC",
+      "REALIZABLE",
+      "VERIFIED",
+      "STATUS",
+      "CODE_REF_COLOR",
+      "ID_POS_OWNER_REF_COLOR",
+      "NOTE",
+      "CORRECTIONS",
+      "USE",
+      "COLORFILE_ID",
+      "ID_MEASURE",
+      "ID_POS_OWNER_MEASURE",
+      "ID_MEASURE_SUB",
+      "ID_POS_OWNER_MEASURE_SUB",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "FORMULA_COMPONENTS_LOG": {
+    "columns": [
+      "ID_FORMULA",
+      "ID_POS_OWNER",
+      "ID_COMPONENT",
+      "QUANTITY",
+      "ID_UNIT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "GROUPS": {
+    "columns": [
+      "ID_GROUP",
+      "CODE_GROUP",
+      "DESCRIPTION",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_GROUP": "1",
+        "CODE_GROUP": "IVM Chemicals",
+        "DESCRIPTION": "IVM Chemicals",
+        "DATE_MODIFY": "2016-09-15 09:45:02.763000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_GROUP": "2",
+        "CODE_GROUP": "IVM Chemicals2",
+        "DESCRIPTION": "IVM Chemicals2",
+        "DATE_MODIFY": "2023-05-16 14:55:47.793000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "REGISTRY_LOG": {
+    "columns": [
+      "ID_REGISTRY",
+      "ID_POS_OWNER",
+      "JOB",
+      "START_DATE",
+      "STATUS",
+      "ACTION",
+      "ACT_VALUE",
+      "HOSTNAME",
+      "ID_DISPENSER",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "HISTORY_LOG": {
+    "columns": [
+      "ID_HISTORY",
+      "ID_POS_OWNER",
+      "ID_DISPENSER",
+      "ID_BALANCE",
+      "ID_PRODUCT",
+      "STATUS",
+      "QTY_REQUEST",
+      "QTY_DISPENSED",
+      "DATE",
+      "ID_COLOR",
+      "ID_POS_OWNER_COLOR",
+      "ID_FORMULA",
+      "ID_POS_OWNER_FORMULA",
+      "ID_CAN",
+      "ID_COMPONENT_BASE",
+      "COEFF_1",
+      "QTY_NOMINALE",
+      "QTY_BASE_CAN",
+      "ID_UNIT_CAN",
+      "ID_SYSTEM",
+      "COST_BASE_CAN",
+      "COST_BASE_UNIT",
+      "COST_COLORANT_CAN",
+      "COST_COLORANT_UNIT",
+      "PRICE_BASE_CAN",
+      "PRICE_BASE_UNIT",
+      "PRICE_COLORANT_CAN",
+      "PRICE_COLORANT_UNIT",
+      "PRICE_BICOMPONENT_CAN",
+      "PRICE_BICOMPONENT_UNIT",
+      "ID_BICOMPONENT",
+      "COEFF_BICOMPONENT",
+      "DISCOUNT",
+      "PRICE_NOTE",
+      "CURRENCY_SYMBOL",
+      "VAT",
+      "NOTE",
+      "ID_CUSTOMER",
+      "ID_POS_OWNER_CUSTOMER",
+      "SITE",
+      "OPERATOR",
+      "HOSTNAME",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY",
+      "COEFF_WEIGHT_BICOMPONENT",
+      "COEFF_VOLUME_BICOMPONENT"
+    ],
+    "sample_data": []
+  },
+  "INSTRUMENTS": {
+    "columns": [
+      "ID_INSTRUMENT",
+      "DRIVER",
+      "TYPE",
+      "DESCRIPTION",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_INSTRUMENT": "1",
+        "DRIVER": "COMETFLASH",
+        "TYPE": "1",
+        "DESCRIPTION": "Datacolor Dataflash 110",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_INSTRUMENT": "2",
+        "DRIVER": "COMETFLASH",
+        "TYPE": "1",
+        "DESCRIPTION": "Datacolor Dataflash 600",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_INSTRUMENT": "3",
+        "DRIVER": "COMETFLASH",
+        "TYPE": "1",
+        "DESCRIPTION": "Datacolor Dataflash 400",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_INSTRUMENT": "4",
+        "DRIVER": "COLORSPYDER",
+        "TYPE": "2",
+        "DESCRIPTION": "Datacolor Select",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_INSTRUMENT": "5",
+        "DRIVER": "DEMO",
+        "TYPE": "1",
+        "DESCRIPTION": "DEMO",
+        "DATE_MODIFY": "2016-08-02 17:52:56.143000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "LABELS": {
+    "columns": [
+      "ID_LABEL",
+      "ID_POS_OWNER",
+      "CODE_LABEL",
+      "ID_POS_SPECIFIC",
+      "PAPER_NAME",
+      "PAPER_WIDTH",
+      "PAPER_HEIGHT",
+      "PRINTER_NAME",
+      "PAGE_ORIENTATION",
+      "CUSTOM_MESSAGE",
+      "LOGO",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_LABEL": "2",
+        "ID_POS_OWNER": "1",
+        "CODE_LABEL": "L2",
+        "ID_POS_SPECIFIC": null,
+        "PAPER_NAME": "A7",
+        "PAPER_WIDTH": "73.91400000000000000000",
+        "PAPER_HEIGHT": "104.64800000000000000000",
+        "PRINTER_NAME": "PDFCreator",
+        "PAGE_ORIENTATION": "1",
+        "CUSTOM_MESSAGE": "User information",
+        "LOGO": "Datacolor.png",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_LABEL": "1",
+        "ID_POS_OWNER": "1",
+        "CODE_LABEL": "L1",
+        "ID_POS_SPECIFIC": null,
+        "PAPER_NAME": "A7",
+        "PAPER_WIDTH": "73.91400000000000000000",
+        "PAPER_HEIGHT": "104.64800000000000000000",
+        "PRINTER_NAME": "PDFCreator",
+        "PAGE_ORIENTATION": "1",
+        "CUSTOM_MESSAGE": "User information",
+        "LOGO": "Datacolor.png",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "LABEL_LAYOUT": {
+    "columns": [
+      "FIELD_NAME",
+      "ID_LABEL",
+      "ID_POS_OWNER_LABEL",
+      "FIELD_TYPE",
+      "VISIBLE",
+      "PRINTABLE",
+      "REF_POSITION_X",
+      "REF_POSITION_Y",
+      "REF_SIZE_W",
+      "REF_SIZE_H",
+      "REF_ROTATION",
+      "FONT_NAME",
+      "ALIGNMENT",
+      "FONT_SIZE",
+      "BOLD",
+      "ITALIC",
+      "UNDERLINE",
+      "STRIKEOUT",
+      "COLOR",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "FIELD_NAME": "TotalPrice",
+        "ID_LABEL": "2",
+        "ID_POS_OWNER_LABEL": "1",
+        "FIELD_TYPE": "0",
+        "VISIBLE": "1",
+        "PRINTABLE": "0",
+        "REF_POSITION_X": "1",
+        "REF_POSITION_Y": "1",
+        "REF_SIZE_W": "0",
+        "REF_SIZE_H": "0",
+        "REF_ROTATION": "0",
+        "FONT_NAME": "Arial",
+        "ALIGNMENT": "0",
+        "FONT_SIZE": "8",
+        "BOLD": "0",
+        "ITALIC": "0",
+        "UNDERLINE": "0",
+        "STRIKEOUT": "0",
+        "COLOR": "FF000000",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "FIELD_NAME": "Product",
+        "ID_LABEL": "2",
+        "ID_POS_OWNER_LABEL": "1",
+        "FIELD_TYPE": "0",
+        "VISIBLE": "1",
+        "PRINTABLE": "1",
+        "REF_POSITION_X": "2",
+        "REF_POSITION_Y": "19",
+        "REF_SIZE_W": "0",
+        "REF_SIZE_H": "0",
+        "REF_ROTATION": "0",
+        "FONT_NAME": "Arial",
+        "ALIGNMENT": "0",
+        "FONT_SIZE": "12",
+        "BOLD": "1",
+        "ITALIC": "0",
+        "UNDERLINE": "0",
+        "STRIKEOUT": "0",
+        "COLOR": "FF000000",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "FIELD_NAME": "POS",
+        "ID_LABEL": "2",
+        "ID_POS_OWNER_LABEL": "1",
+        "FIELD_TYPE": "0",
+        "VISIBLE": "1",
+        "PRINTABLE": "1",
+        "REF_POSITION_X": "2",
+        "REF_POSITION_Y": "1",
+        "REF_SIZE_W": "0",
+        "REF_SIZE_H": "0",
+        "REF_ROTATION": "0",
+        "FONT_NAME": "Arial",
+        "ALIGNMENT": "0",
+        "FONT_SIZE": "10",
+        "BOLD": "1",
+        "ITALIC": "0",
+        "UNDERLINE": "0",
+        "STRIKEOUT": "0",
+        "COLOR": "FF000000",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "FIELD_NAME": "Phone",
+        "ID_LABEL": "2",
+        "ID_POS_OWNER_LABEL": "1",
+        "FIELD_TYPE": "0",
+        "VISIBLE": "1",
+        "PRINTABLE": "1",
+        "REF_POSITION_X": "2",
+        "REF_POSITION_Y": "10",
+        "REF_SIZE_W": "0",
+        "REF_SIZE_H": "0",
+        "REF_ROTATION": "0",
+        "FONT_NAME": "Arial",
+        "ALIGNMENT": "0",
+        "FONT_SIZE": "8",
+        "BOLD": "0",
+        "ITALIC": "0",
+        "UNDERLINE": "0",
+        "STRIKEOUT": "0",
+        "COLOR": "FF000000",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "FIELD_NAME": "Operator",
+        "ID_LABEL": "2",
+        "ID_POS_OWNER_LABEL": "1",
+        "FIELD_TYPE": "0",
+        "VISIBLE": "1",
+        "PRINTABLE": "1",
+        "REF_POSITION_X": "55",
+        "REF_POSITION_Y": "30",
+        "REF_SIZE_W": "0",
+        "REF_SIZE_H": "0",
+        "REF_ROTATION": "0",
+        "FONT_NAME": "Arial",
+        "ALIGNMENT": "2",
+        "FONT_SIZE": "8",
+        "BOLD": "0",
+        "ITALIC": "0",
+        "UNDERLINE": "0",
+        "STRIKEOUT": "0",
+        "COLOR": "FF000000",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "LIST_PRICES": {
+    "columns": [
+      "ID_LIST_PRICE",
+      "ID_POS_OWNER",
+      "DESCRIPTION",
+      "TYPE",
+      "ID_POS_SPECIFIC",
+      "ID_GROUP_SPECIFIC",
+      "CURRENCY_SYMBOL",
+      "VAT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_LIST_PRICE": "2",
+        "ID_POS_OWNER": "1",
+        "DESCRIPTION": "Demo",
+        "TYPE": "1",
+        "ID_POS_SPECIFIC": null,
+        "ID_GROUP_SPECIFIC": null,
+        "CURRENCY_SYMBOL": "€",
+        "VAT": "0.0000",
+        "DATE_MODIFY": "2017-11-27 16:21:36.023000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "MEASURES": {
+    "columns": [
+      "ID_MEASURE",
+      "ID_POS_OWNER",
+      "DESCRIPTION",
+      "DATE",
+      "STATUS",
+      "TYPE",
+      "ID_INSTRUMENT",
+      "SPECULARITY",
+      "UVFILTER",
+      "APERTURE",
+      "ANGLE",
+      "L",
+      "C",
+      "H",
+      "A",
+      "B",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "MEASURES_LOG": {
+    "columns": [
+      "ID_MEASURE",
+      "ID_POS_OWNER",
+      "DESCRIPTION",
+      "DATE",
+      "STATUS",
+      "TYPE",
+      "ID_INSTRUMENT",
+      "SPECULARITY",
+      "UVFILTER",
+      "APERTURE",
+      "ANGLE",
+      "L",
+      "C",
+      "H",
+      "A",
+      "B",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "SAMPLES": {
+    "columns": [
+      "ID_MEASURE",
+      "ID_POS_OWNER",
+      "WAVELENGTH",
+      "REFLECTANCE"
+    ],
+    "sample_data": []
+  },
+  "SAMPLES_LOG": {
+    "columns": [
+      "ID_MEASURE",
+      "ID_POS_OWNER",
+      "WAVELENGTH",
+      "REFLECTANCE"
+    ],
+    "sample_data": []
+  },
+  "MESSAGES": {
+    "columns": [
+      "LANGUAGE_CULTURE",
+      "SECTION",
+      "IDENTIFIER",
+      "MESSAGE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "PARAMETERS_DEFINE": {
+    "columns": [
+      "NAME",
+      "TYPE",
+      "TYPE_NAME_ENUM",
+      "TYPE_PARAMETER",
+      "DEFAULT_VALUE",
+      "VALIDATE_MIN_VALUE",
+      "VALIDATE_MAX_VALUE",
+      "VALIDATE_REG_EXPRESSION",
+      "DESC_0410",
+      "DESC_0409",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "NAME": "DATABASE_VERSION_POS",
+        "TYPE": "1",
+        "TYPE_NAME_ENUM": null,
+        "TYPE_PARAMETER": "0",
+        "DEFAULT_VALUE": "",
+        "VALIDATE_MIN_VALUE": null,
+        "VALIDATE_MAX_VALUE": null,
+        "VALIDATE_REG_EXPRESSION": null,
+        "DESC_0410": "Versione del Database POS locale",
+        "DESC_0409": "Database Version local POS",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DATABASE_VERSION",
+        "TYPE": "1",
+        "TYPE_NAME_ENUM": null,
+        "TYPE_PARAMETER": "1",
+        "DEFAULT_VALUE": "1",
+        "VALIDATE_MIN_VALUE": null,
+        "VALIDATE_MAX_VALUE": null,
+        "VALIDATE_REG_EXPRESSION": null,
+        "DESC_0410": "Versione del Database",
+        "DESC_0409": "Database Version",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DATABASE_REVISION_NOTE",
+        "TYPE": "1",
+        "TYPE_NAME_ENUM": null,
+        "TYPE_PARAMETER": "1",
+        "DEFAULT_VALUE": "1",
+        "VALIDATE_MIN_VALUE": null,
+        "VALIDATE_MAX_VALUE": null,
+        "VALIDATE_REG_EXPRESSION": null,
+        "DESC_0410": "Note di revisione dati del Database Lab",
+        "DESC_0409": "Note of revision data of the Database Lab",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DRIVER_GECO",
+        "TYPE": "1",
+        "TYPE_NAME_ENUM": null,
+        "TYPE_PARAMETER": "1",
+        "DEFAULT_VALUE": "0",
+        "VALIDATE_MIN_VALUE": null,
+        "VALIDATE_MAX_VALUE": null,
+        "VALIDATE_REG_EXPRESSION": null,
+        "DESC_0410": "Abilitazione driver \"GeCo\"",
+        "DESC_0409": "Enabling driver \"GeCo\"",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DRIVER_FAST",
+        "TYPE": "1",
+        "TYPE_NAME_ENUM": null,
+        "TYPE_PARAMETER": "1",
+        "DEFAULT_VALUE": "0",
+        "VALIDATE_MIN_VALUE": null,
+        "VALIDATE_MAX_VALUE": null,
+        "VALIDATE_REG_EXPRESSION": null,
+        "DESC_0410": "Abilitazione driver \"FAST\"",
+        "DESC_0409": "Enabling driver \"FAST\"",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      }
+    ]
+  },
+  "PARAMETERS_SYSTEM": {
+    "columns": [
+      "NAME",
+      "VALUE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "NAME": "DATABASE_VERSION",
+        "VALUE": "222",
+        "DATE_MODIFY": "2015-05-28 09:14:27.723000",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DATABASE_REVISION_NOTE",
+        "VALUE": "-",
+        "DATE_MODIFY": "2024-07-08 14:26:49.857000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "DRIVER_COMETFLASH",
+        "VALUE": "f80402ddb59f66284e0e653413d2212f",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DRIVER_SP60",
+        "VALUE": "0",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "NAME": "DRIVER_SP62",
+        "VALUE": "0",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      }
+    ]
+  },
+  "PARAMETERS_GROUP": {
+    "columns": [
+      "NAME",
+      "ID_GROUP",
+      "VALUE",
+      "VALUE_DEFAULT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "NAME": "CURRENCY_SYMB_DEFAULT",
+        "ID_GROUP": "1",
+        "VALUE": "€",
+        "VALUE_DEFAULT": "$",
+        "DATE_MODIFY": "2016-08-03 11:21:03.007000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "CM_SOLUTION_NUMBER",
+        "ID_GROUP": "1",
+        "VALUE": "5",
+        "VALUE_DEFAULT": "5",
+        "DATE_MODIFY": "2022-01-18 09:52:54.430000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "PARAMETERS_POS": {
+    "columns": [
+      "NAME",
+      "ID_POS",
+      "VALUE",
+      "VALUE_DEFAULT",
+      "IS_READ_ONLY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "NAME": "LANGUAGE",
+        "ID_POS": "10001",
+        "VALUE": "it-IT",
+        "VALUE_DEFAULT": "en-US",
+        "IS_READ_ONLY": "0",
+        "DATE_MODIFY": "2016-08-02 17:31:05.283000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "POS_ADDRESS2",
+        "ID_POS": "200016",
+        "VALUE": "-",
+        "VALUE_DEFAULT": "-",
+        "IS_READ_ONLY": "0",
+        "DATE_MODIFY": "2017-05-22 11:01:35.557000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "POS_ADDRESS2",
+        "ID_POS": "401077",
+        "VALUE": "-",
+        "VALUE_DEFAULT": "-",
+        "IS_READ_ONLY": "0",
+        "DATE_MODIFY": "2017-05-22 11:01:27.133000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "ENABLE_ADVANCED_COLORMATCH",
+        "ID_POS": "10001",
+        "VALUE": "True",
+        "VALUE_DEFAULT": "False",
+        "IS_READ_ONLY": "0",
+        "DATE_MODIFY": "2017-09-14 11:00:17.877000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "VIEW_YIELD_IN_FORMULA",
+        "ID_POS": "10001",
+        "VALUE": "True",
+        "VALUE_DEFAULT": "False",
+        "IS_READ_ONLY": "0",
+        "DATE_MODIFY": "2017-09-14 11:00:23.493000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "POS": {
+    "columns": [
+      "ID_POS",
+      "CODE_POS",
+      "DESCRIPTION",
+      "STATUS",
+      "TYPE",
+      "ID_GROUP",
+      "ID_POS_OF_LAB",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_POS": "1",
+        "CODE_POS": "IVM-LAB",
+        "DESCRIPTION": "IVM Laboratory",
+        "STATUS": "V",
+        "TYPE": "0",
+        "ID_GROUP": "1",
+        "ID_POS_OF_LAB": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_POS": "10001",
+        "CODE_POS": "UTENTE POS PILOTA 1",
+        "DESCRIPTION": "POS Interno",
+        "STATUS": "V",
+        "TYPE": "1",
+        "ID_GROUP": "1",
+        "ID_POS_OF_LAB": "1",
+        "DATE_MODIFY": "2023-05-17 15:11:29.287000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "10002",
+        "CODE_POS": "UTENTE POS PILOTA 2",
+        "DESCRIPTION": "POS Interno",
+        "STATUS": "V",
+        "TYPE": "1",
+        "ID_GROUP": "1",
+        "ID_POS_OF_LAB": "1",
+        "DATE_MODIFY": "2016-11-03 15:42:29.597000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "200057",
+        "CODE_POS": "M.L.S. MAGYARORSZAG KFT",
+        "DESCRIPTION": "200057 - M.L.S. MAGYARORSZAG KFT",
+        "STATUS": "V",
+        "TYPE": "1",
+        "ID_GROUP": "1",
+        "ID_POS_OF_LAB": "1",
+        "DATE_MODIFY": "2019-02-12 14:44:27.530000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "101746",
+        "CODE_POS": "BIGLIOTTI VERNICI SRL",
+        "DESCRIPTION": "101746 - BIGLIOTTI VERNICI SRL",
+        "STATUS": "V",
+        "TYPE": "1",
+        "ID_GROUP": "1",
+        "ID_POS_OF_LAB": "1",
+        "DATE_MODIFY": "2019-02-12 14:39:33.967000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "POS_BRANDS": {
+    "columns": [
+      "ID_POS",
+      "ID_BRAND",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_POS": "10001",
+        "ID_BRAND": "1",
+        "DATE_MODIFY": "2016-02-04 11:14:44.333000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "10001",
+        "ID_BRAND": "2",
+        "DATE_MODIFY": "2016-09-15 09:53:13.663000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "10002",
+        "ID_BRAND": "1",
+        "DATE_MODIFY": "2016-10-07 11:11:51.830000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "10002",
+        "ID_BRAND": "2",
+        "DATE_MODIFY": "2016-10-07 11:11:51.830000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "200057",
+        "ID_BRAND": "1",
+        "DATE_MODIFY": "2016-10-26 09:53:36.397000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "PRODUCTS": {
+    "columns": [
+      "ID_PRODUCT",
+      "CODE_PRODUCT",
+      "DESCRIPTION",
+      "ID_BRAND",
+      "ID_CATEGORY",
+      "STATUS",
+      "IMAGE",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_PRODUCT": "1",
+        "CODE_PRODUCT": "KKR1x Colour Gloss",
+        "DESCRIPTION": "KKR1x Colour Gloss",
+        "ID_BRAND": "1",
+        "ID_CATEGORY": "98",
+        "STATUS": "V",
+        "IMAGE": "PASTE.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2022-11-08 14:05:44.273000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCT": "2",
+        "CODE_PRODUCT": "SOLVENTE POLIURETANICO MILESI",
+        "DESCRIPTION": "SOLVENT POLYURETHANIC MILESI",
+        "ID_BRAND": "1",
+        "ID_CATEGORY": "2",
+        "STATUS": "A",
+        "IMAGE": "PASTE.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-12-14 14:13:00.660000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCT": "3",
+        "CODE_PRODUCT": "ACQUA INDUSTRIALE MILESI",
+        "DESCRIPTION": "WATER INDUSTRIAL MILESI",
+        "ID_BRAND": "1",
+        "ID_CATEGORY": "2",
+        "STATUS": "A",
+        "IMAGE": "PASTE.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-12-14 14:13:00.653000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCT": "4",
+        "CODE_PRODUCT": "SOLVENTE LUCIDO MILESI",
+        "DESCRIPTION": "SOLVENT GLOSSY MILESI",
+        "ID_BRAND": "1",
+        "ID_CATEGORY": "2",
+        "STATUS": "A",
+        "IMAGE": "PASTE.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-12-14 14:13:00.657000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_PRODUCT": "5",
+        "CODE_PRODUCT": "SOLVENTE ACRILICO MILESI",
+        "DESCRIPTION": "SOLVENT ACRYLIC MILESI",
+        "ID_BRAND": "1",
+        "ID_CATEGORY": "2",
+        "STATUS": "A",
+        "IMAGE": "PASTE.jpg",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-12-14 14:13:00.657000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "REFERENCE_COLORS": {
+    "columns": [
+      "CODE_REF_COLOR",
+      "ID_POS_OWNER",
+      "L",
+      "C",
+      "H",
+      "A",
+      "B",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "CODE_REF_COLOR": "L745-W312-GY664",
+        "ID_POS_OWNER": "1",
+        "L": "92.35859692771420000000",
+        "C": "7.80468010672501000000",
+        "H": "142.38637130715800000000",
+        "A": "-6.18243433042232000000",
+        "B": "4.76345854588078000000",
+        "STATUS": "V",
+        "DATE_MODIFY": "2019-11-25 10:47:54.463000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "CODE_REF_COLOR": "L835-W218-Y572",
+        "ID_POS_OWNER": "1",
+        "L": "95.04962370761390000000",
+        "C": "5.44470839988538000000",
+        "H": "93.24154481666900000000",
+        "A": "-0.30787350565258900000",
+        "B": "5.43599700738509000000",
+        "STATUS": "V",
+        "DATE_MODIFY": "2019-11-25 10:47:57.427000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "CODE_REF_COLOR": "I978-M154-R746",
+        "ID_POS_OWNER": "1",
+        "L": "69.22668860911320000000",
+        "C": "28.86226277716050000000",
+        "H": "11.05296315875870000000",
+        "A": "28.32687887928760000000",
+        "B": "5.53336656801562000000",
+        "STATUS": "V",
+        "DATE_MODIFY": "2019-11-25 10:48:00.237000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "CODE_REF_COLOR": "I253-S043-R966",
+        "ID_POS_OWNER": "1",
+        "L": "43.86983625598790000000",
+        "C": "52.15154291973180000000",
+        "H": "20.94767892534490000000",
+        "A": "48.70470611021130000000",
+        "B": "18.64497336084360000000",
+        "STATUS": "V",
+        "DATE_MODIFY": "2019-11-25 10:48:03.093000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "CODE_REF_COLOR": "L750-W489-Y440",
+        "ID_POS_OWNER": "1",
+        "L": "92.49567407476860000000",
+        "C": "12.21887371911470000000",
+        "H": "87.31692742201660000000",
+        "A": "0.57198182012469000000",
+        "B": "12.20547876001260000000",
+        "STATUS": "V",
+        "DATE_MODIFY": "2019-11-25 10:48:05.923000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "REFERENCE_COLORS_LOG": {
+    "columns": [
+      "CODE_REF_COLOR",
+      "ID_POS_OWNER",
+      "L",
+      "C",
+      "H",
+      "A",
+      "B",
+      "STATUS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "TINTING_SYSTEMS": {
+    "columns": [
+      "ID_SYSTEM",
+      "CODE_SYSTEM",
+      "DESCRIPTION",
+      "IMAGE",
+      "ID_UNIT",
+      "UNIT_NUMBER_DECIMAL",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_SYSTEM": "1",
+        "CODE_SYSTEM": "KROMO-ACQUA",
+        "DESCRIPTION": "Kromosystem Acqua",
+        "IMAGE": "DEFAULT.PNG",
+        "ID_UNIT": "101",
+        "UNIT_NUMBER_DECIMAL": "2",
+        "DATE_MODIFY": "2016-08-02 17:51:42.313000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "2",
+        "CODE_SYSTEM": "KROMO-SOLV",
+        "DESCRIPTION": "Kromosystem Solvente",
+        "IMAGE": "DEFAULT.PNG",
+        "ID_UNIT": "101",
+        "UNIT_NUMBER_DECIMAL": "2",
+        "DATE_MODIFY": "2019-11-22 14:42:20.430000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "3",
+        "CODE_SYSTEM": "SISTEMA-ACQUA",
+        "DESCRIPTION": "Il Sistema Tintometrico Acqua",
+        "IMAGE": null,
+        "ID_UNIT": "101",
+        "UNIT_NUMBER_DECIMAL": "2",
+        "DATE_MODIFY": "2016-09-15 09:41:35.697000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "4",
+        "CODE_SYSTEM": "SISTEMA-SOLVENTE",
+        "DESCRIPTION": "Il Sistema Tintometrico Solvente",
+        "IMAGE": "iVM Chemicals grigio blu-alta.jpg",
+        "ID_UNIT": "101",
+        "UNIT_NUMBER_DECIMAL": "2",
+        "DATE_MODIFY": "2016-09-19 15:11:11.570000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "5",
+        "CODE_SYSTEM": "CROMA-SOLV",
+        "DESCRIPTION": "Kromosystem Solvente",
+        "IMAGE": null,
+        "ID_UNIT": "101",
+        "UNIT_NUMBER_DECIMAL": "2",
+        "DATE_MODIFY": "2017-05-24 11:30:25.943000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "TINTING_SYSTEMS_COMPONENTS": {
+    "columns": [
+      "ID_SYSTEM",
+      "ID_COMPONENT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_SYSTEM": "1",
+        "ID_COMPONENT": "7",
+        "DATE_MODIFY": "2016-08-02 17:52:38.940000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "1",
+        "ID_COMPONENT": "1",
+        "DATE_MODIFY": "2016-08-02 17:52:38.940000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "1",
+        "ID_COMPONENT": "14",
+        "DATE_MODIFY": "2016-08-02 17:52:38.950000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "1",
+        "ID_COMPONENT": "13",
+        "DATE_MODIFY": "2016-08-02 17:52:38.950000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "1",
+        "ID_COMPONENT": "20",
+        "DATE_MODIFY": "2016-08-02 17:52:38.960000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "UNITS": {
+    "columns": [
+      "ID_UNIT",
+      "CODE_UNIT",
+      "DESCRIPTION",
+      "TYPE",
+      "UNIT_VALUE",
+      "FRACTION",
+      "USE",
+      "FORMAT_CODE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_UNIT": "1",
+        "CODE_UNIT": "L",
+        "DESCRIPTION": "Liters",
+        "TYPE": "VO",
+        "UNIT_VALUE": "1.00000000000000000000",
+        "FRACTION": "1.00000000000000000000",
+        "USE": "3",
+        "FORMAT_CODE": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_UNIT": "2",
+        "CODE_UNIT": "ml",
+        "DESCRIPTION": "Milliliters",
+        "TYPE": "VO",
+        "UNIT_VALUE": "0.00100000000000000000",
+        "FRACTION": "1.00000000000000000000",
+        "USE": "3",
+        "FORMAT_CODE": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_UNIT": "3",
+        "CODE_UNIT": "Ga",
+        "DESCRIPTION": "Gallons",
+        "TYPE": "VO",
+        "UNIT_VALUE": "3.78541178400000000000",
+        "FRACTION": "1.00000000000000000000",
+        "USE": "3",
+        "FORMAT_CODE": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_UNIT": "4",
+        "CODE_UNIT": "Qt",
+        "DESCRIPTION": "Quarts",
+        "TYPE": "VO",
+        "UNIT_VALUE": "0.94635294600000000000",
+        "FRACTION": "1.00000000000000000000",
+        "USE": "3",
+        "FORMAT_CODE": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      },
+      {
+        "ID_UNIT": "10",
+        "CODE_UNIT": "fl.oz.",
+        "DESCRIPTION": "Fluid ounce",
+        "TYPE": "VO",
+        "UNIT_VALUE": "0.02957352956250000000",
+        "FRACTION": "1.00000000000000000000",
+        "USE": "3",
+        "FORMAT_CODE": null,
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "0",
+        "ID_POS_MODIFY": "0"
+      }
+    ]
+  },
+  "USERS": {
+    "columns": [
+      "ID_USER",
+      "ID_POS_OWNER",
+      "CODE_USER",
+      "DESCRIPTION",
+      "PWD",
+      "TYPE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_USER": "1",
+        "ID_POS_OWNER": "1",
+        "CODE_USER": "ADMIN",
+        "DESCRIPTION": "LAB & POS administrator",
+        "PWD": "admin",
+        "TYPE": "1",
+        "DATE_MODIFY": "2014-04-30 12:00:00",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_USER": "2",
+        "ID_POS_OWNER": "1",
+        "CODE_USER": "USER",
+        "DESCRIPTION": "POS user",
+        "PWD": "USER",
+        "TYPE": "2",
+        "DATE_MODIFY": "2019-02-22 10:44:36.313000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "WORKSTATIONS": {
+    "columns": [
+      "HOSTNAME",
+      "ID_POS_OWNER",
+      "ID_DISPENSER",
+      "ID_INSTRUMENT",
+      "ID_BALANCE",
+      "ID_ENGINE1",
+      "ID_ENGINE2",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "TINTING_SYSTEMS_COLORFILE": {
+    "columns": [
+      "ID_SYSTEM",
+      "ID_COLORFILE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_SYSTEM": "1",
+        "ID_COLORFILE": "2",
+        "DATE_MODIFY": "2016-09-19 15:50:39.887000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "4",
+        "ID_COLORFILE": "12",
+        "DATE_MODIFY": "2016-09-19 15:50:46.127000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "3",
+        "ID_COLORFILE": "1",
+        "DATE_MODIFY": "2016-09-19 15:38:54.487000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "2",
+        "ID_COLORFILE": "11",
+        "DATE_MODIFY": "2016-09-19 15:50:50.760000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "3",
+        "ID_COLORFILE": "6",
+        "DATE_MODIFY": "2016-09-19 15:49:48.263000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "TINTING_SYSTEMS_POS": {
+    "columns": [
+      "ID_SYSTEM",
+      "ID_POS",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_SYSTEM": "1",
+        "ID_POS": "10001",
+        "DATE_MODIFY": "2016-02-04 10:34:39.907000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "2",
+        "ID_POS": "10001",
+        "DATE_MODIFY": "2016-08-03 11:23:30.647000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "3",
+        "ID_POS": "10001",
+        "DATE_MODIFY": "2016-09-15 09:53:20.743000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "4",
+        "ID_POS": "10001",
+        "DATE_MODIFY": "2016-09-15 09:53:20.747000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "1",
+        "ID_POS": "10002",
+        "DATE_MODIFY": "2016-10-07 11:12:03.423000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "TINTING_SYSTEMS_DISPENSER": {
+    "columns": [
+      "ID_SYSTEM",
+      "ID_DISPENSER",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_SYSTEM": "1",
+        "ID_DISPENSER": "1",
+        "DATE_MODIFY": "2016-08-02 17:52:44.730000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "2",
+        "ID_DISPENSER": "1",
+        "DATE_MODIFY": "2016-08-03 10:05:30.810000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "1",
+        "ID_DISPENSER": "34",
+        "DATE_MODIFY": "2016-10-24 09:34:07.537000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "3",
+        "ID_DISPENSER": "34",
+        "DATE_MODIFY": "2016-10-24 09:34:07.540000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_SYSTEM": "2",
+        "ID_DISPENSER": "35",
+        "DATE_MODIFY": "2016-11-17 14:44:55.473000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "DOCUMENTS": {
+    "columns": [
+      "KEY_LINK",
+      "TYPE",
+      "CULTURE",
+      "DOC_URL",
+      "DOC_FILE",
+      "DESCRIPTION",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "SKINS": {
+    "columns": [
+      "ID_BRAND",
+      "ID_SYSTEM",
+      "CODE_SKIN",
+      "DESCRIPTION",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "PARAMETERS_COLORFILE": {
+    "columns": [
+      "NAME",
+      "ID_COLORFILE",
+      "VALUE",
+      "VALUE_DEFAULT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "NAME": "MATCHING_CALC_MAXSOLUTIONS",
+        "ID_COLORFILE": "4",
+        "VALUE": "500",
+        "VALUE_DEFAULT": "500",
+        "DATE_MODIFY": "2017-02-01 11:15:57.417000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "SORTING_WEIGHT_PRIORITY",
+        "ID_COLORFILE": "51",
+        "VALUE": "0,6",
+        "VALUE_DEFAULT": "0,1",
+        "DATE_MODIFY": "2023-02-13 11:27:39.860000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "SORTING_WEIGHT_PRIORITY",
+        "ID_COLORFILE": "38",
+        "VALUE": "0,6",
+        "VALUE_DEFAULT": "0,1",
+        "DATE_MODIFY": "2023-02-13 11:28:14.707000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "SORTING_WEIGHT_PRIORITY",
+        "ID_COLORFILE": "63",
+        "VALUE": "0,6",
+        "VALUE_DEFAULT": "0,1",
+        "DATE_MODIFY": "2023-02-13 11:28:29.737000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "NAME": "GLOBAL_ILLUMINANT1",
+        "ID_COLORFILE": "10",
+        "VALUE": "F02",
+        "VALUE_DEFAULT": "A",
+        "DATE_MODIFY": "2023-02-13 11:29:45.977000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "POS_EXCLUDE_PRODUCTS": {
+    "columns": [
+      "ID_POS",
+      "ID_PRODUCT",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_POS": "2020010",
+        "ID_PRODUCT": "2",
+        "DATE_MODIFY": "2022-10-11 16:19:59.480000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "46601",
+        "ID_PRODUCT": "15",
+        "DATE_MODIFY": "2017-07-14 09:00:49.610000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "100862",
+        "ID_PRODUCT": "3",
+        "DATE_MODIFY": "2018-06-04 08:49:06.027000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "100862",
+        "ID_PRODUCT": "14",
+        "DATE_MODIFY": "2018-06-04 08:49:06.027000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_POS": "46602",
+        "ID_PRODUCT": "15",
+        "DATE_MODIFY": "2017-07-14 09:01:54.820000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "BALANCES": {
+    "columns": [
+      "ID_BALANCE",
+      "CODE_BALANCE",
+      "DESCRIPTION",
+      "PARAM",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "UPDATES": {
+    "columns": [
+      "ID_UPDATE",
+      "DESCRIPTION",
+      "STATUS",
+      "IS_PUBLIC",
+      "TYPE_UPDATE",
+      "DATE_CREATE",
+      "VERSION",
+      "MIN_VERSION",
+      "MIN_VERSION_DB",
+      "LANGUAGE",
+      "FILE_NAME",
+      "FILE_SIZE",
+      "FILE_KEY",
+      "FILE_LOCATION_HOST",
+      "FILE_DATE_PUB",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_UPDATE": "1",
+        "DESCRIPTION": "a",
+        "STATUS": "V",
+        "IS_PUBLIC": "1",
+        "TYPE_UPDATE": "7",
+        "DATE_CREATE": "2019-07-11 00:00:00",
+        "VERSION": "0.0.0.0",
+        "MIN_VERSION": "0.0.0.0",
+        "MIN_VERSION_DB": "0",
+        "LANGUAGE": "",
+        "FILE_NAME": "",
+        "FILE_SIZE": "0",
+        "FILE_KEY": "",
+        "FILE_LOCATION_HOST": "",
+        "FILE_DATE_PUB": null,
+        "DATE_MODIFY": "2019-07-11 16:10:43.890000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  },
+  "NEWS": {
+    "columns": [
+      "GUID",
+      "DATE_NEWS",
+      "TITLE",
+      "DESCRIPTION",
+      "LINK",
+      "TO_GROUP",
+      "TO_POS",
+      "TYPE_NEWS",
+      "SEVERITY",
+      "IS_NEW",
+      "LANGUAGE",
+      "STATUS",
+      "DATE_PUB",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "REQUESTS": {
+    "columns": [
+      "ID_REQUEST",
+      "ID_POS_OWNER",
+      "TYPE",
+      "DATE_REQUEST",
+      "STATUS_REQ",
+      "ID_COLOR_REQ",
+      "ID_POS_OWNER_COLOR_REQ",
+      "NOTE_REQ",
+      "ID_PRODUCT",
+      "ID_COMPONENT_BASE",
+      "ID_CAN",
+      "ID_SYSTEM",
+      "ID_CUSTOMER",
+      "ID_POS_OWNER_CUSTOMER",
+      "SITE",
+      "OPERATOR",
+      "DATE_RESP",
+      "STATUS_RESP",
+      "NOTE_RESP",
+      "ID_COLOR_RESP",
+      "ID_POS_OWNER_COLOR_RESP",
+      "ID_FORMULA",
+      "ID_POS_OWNER_FORMULA",
+      "REFLECTANCE_SERIALIZE",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "INDICATIONS": {
+    "columns": [
+      "ID_INDICATIONS",
+      "DESCRIPTION",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": []
+  },
+  "CATEGORIES": {
+    "columns": [
+      "ID_CATEGORY",
+      "CODE_CATEGORY",
+      "DESCRIPTION",
+      "TYPE_CATEGORY",
+      "PRIORITY",
+      "DATE_MODIFY",
+      "ID_USER_MODIFY",
+      "ID_POS_MODIFY"
+    ],
+    "sample_data": [
+      {
+        "ID_CATEGORY": "1",
+        "CODE_CATEGORY": "WOOD",
+        "DESCRIPTION": "WOOD",
+        "TYPE_CATEGORY": "3",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2017-09-15 09:28:39.313000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CATEGORY": "2",
+        "CODE_CATEGORY": "MY FORMULA",
+        "DESCRIPTION": "MY Formula",
+        "TYPE_CATEGORY": "3",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-01-13 14:27:44.063000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CATEGORY": "3",
+        "CODE_CATEGORY": "FINITURA PU",
+        "DESCRIPTION": "PU Top coat",
+        "TYPE_CATEGORY": "3",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2022-10-17 13:53:17.563000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CATEGORY": "4",
+        "CODE_CATEGORY": "FINITURA PU ACR",
+        "DESCRIPTION": "PU ACR Top coat",
+        "TYPE_CATEGORY": "3",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-01-20 15:41:31.710000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      },
+      {
+        "ID_CATEGORY": "5",
+        "CODE_CATEGORY": "FONDO PU",
+        "DESCRIPTION": "PU Base coat",
+        "TYPE_CATEGORY": "3",
+        "PRIORITY": "0",
+        "DATE_MODIFY": "2020-01-09 16:00:48.180000",
+        "ID_USER_MODIFY": "1",
+        "ID_POS_MODIFY": "1"
+      }
+    ]
+  }
+}
